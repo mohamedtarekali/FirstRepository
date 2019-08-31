@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionTestSuite ">
+<parameter name="browser" value="chrome" />
+
+ <test name="CheckBrokenLinks" >
+		<classes>
+			<class name="test.BrokenLinksTest"/>
+		</classes>
+	</test>
+		<test name="UserSendToCustomerService" >
+		<classes>
+			<class name="test.CustomerServiceTest"/>
+		</classes>
+	</test>
+	<test name="UserGetProfileData" >
+		<classes>
+			<class name="test.DoctorProfieDataTest"/>
+		</classes>
+	</test>
+	
+</suite> 
+           
